@@ -35,6 +35,3 @@ FLOPS_Summations_theory = 4*N-2
 
 count_Multiplications
 count_Summations
-
-
-
