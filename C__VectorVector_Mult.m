@@ -28,7 +28,7 @@ z = xH_y_real + 1j .* xH_y_imag;
 error = round(sum(z_ - z), 1);
 error
 
-%% Check if the number of FLOPS counted through simulation maches up with that derived theoretically. 
+%% Check if the number of FLOPS counted through simulation matches up with that derived theoretically. 
 
 FLOPS_Multiplications_theory = 4*N
 FLOPS_Summations_theory = 4*N-2
