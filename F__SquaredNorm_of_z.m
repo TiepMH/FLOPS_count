@@ -1,4 +1,4 @@
-N = 14;
+N = 18;
 z = randn(N, 1) + 1j*randn(N, 1);
 
 sqNorm = zeros(1);
@@ -18,7 +18,7 @@ for n=1:N
     end
 end
 
-%% We have to check if z_ = z or not.
+%% We have to check if || z_ ||^2 = || z ||^2 or not.
 sqNorm_ = z' * z;
 error = round(sum(sqNorm_ - sqNorm), 1);
 error
