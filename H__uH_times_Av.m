@@ -49,7 +49,7 @@ u' * z
 u' * A * v
 a = a_real + 1j * a_imag
 
-%% Check if the number of FLOPS counted through simulation maches up with that derived theoretically. 
+%% Check if the number of FLOPS counted through simulation matches up with that derived theoretically. 
 count_Multiplications
 count_Summations
 

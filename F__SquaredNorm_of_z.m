@@ -23,7 +23,7 @@ sqNorm_ = z' * z;
 error = round(sum(sqNorm_ - sqNorm), 1);
 error
 
-%% Check if the number of FLOPS counted through simulation maches up with that derived theoretically. 
+%% Check if the number of FLOPS counted through simulation matches up with that derived theoretically. 
 
 FLOPS_Multiplications_theory = 2*N
 FLOPS_Summations_theory = 2*N-1
